@@ -1,4 +1,4 @@
-# rsc_skeleton_cookbook cookbook
+# rsc_mysql_aws cookbook
 
 # Requirements
 
