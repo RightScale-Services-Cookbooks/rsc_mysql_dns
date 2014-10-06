@@ -15,7 +15,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-node['rs-mysql']['dns']['credentials'] = {
-                                            'aws_access_key_id' => node['rs-mysql']['dns']['user_key'],
-                                            'aws_secret_access_key' => node['rs-mysql']['dns']['secret_key']
-                                          }
+node.default['rs-mysql']['dns']['credentials'] = {
+  'aws_access_key_id' => node['rs-mysql']['dns']['user_key'],
+  'aws_secret_access_key' => node['rs-mysql']['dns']['secret_key']
+}
